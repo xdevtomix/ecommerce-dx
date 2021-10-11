@@ -1,14 +1,9 @@
-import { useEffect } from 'react';
+import Header from './components/Header';
 
 export default function App() {
-
-  useEffect(() => {
-    return () => { };
-  }, []);
-
   return (
     <div data-component="app">
-      sanyi
+      <Header />
     </div>
   )
 }
