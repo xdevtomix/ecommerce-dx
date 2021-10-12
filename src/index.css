@@ -30,6 +30,7 @@
 
 *, ::before, ::after {
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -188,6 +189,53 @@ img {
 .button:hover {
     background-color: var(--first-color-alt);
 }
+
+.collection__container {
+    row-gap: 2rem;
+}
+
+.collection__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: var(--gray-color);
+    transition: 0.3s;
+}
+
+.collection__box:hover {
+    transform: translate3d(0, -0.5rem, 0);
+}
+
+.collection__img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.collection__title {
+    font-size: var(--h1-font-size);
+    line-height: 1.2;
+    margin-bottom: var(--mb-2);
+    text-transform: uppercase;
+    font-weight: var(--font-semi);
+}
+
+.collection__subtitle {
+    font-size: var(--h2-font-size);
+    color: var(--dark-color-light);
+}
+
+.collection__view {
+    font-size: var(--small-font-size);
+    color: var(--dark-color-light);
+}
+
+
+.collection__view:hover {
+    text-decoration: underline;
+}
+
 
 
 @media screen and (min-width: 768px) {

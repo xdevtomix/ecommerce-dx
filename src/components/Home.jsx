@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <section className="home" id="home">
+        <section data-component="home" className="home" id="home">
             <div className="home__container bd-grid">
                 <div className="home__data">
                     <h1 className="home__title"> NEW <br /> <span>ARRIVALS</span></h1>
