@@ -3,6 +3,7 @@ import Collection from "./Collection";
 import Featured from "./Featured";
 import Offer from "./Offer";
 import New from "./New";
+import Newsletter from "./Newsletter";
 
 export default function Main() {
     return (
@@ -12,6 +13,7 @@ export default function Main() {
             <Featured />
             <Offer />
             <New />
+            <Newsletter />
         </main>
     );
 }
