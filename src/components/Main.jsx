@@ -4,6 +4,7 @@ import Featured from "./Featured";
 import Offer from "./Offer";
 import New from "./New";
 import Newsletter from "./Newsletter";
+import Sponsors from "./Sponsors";
 
 export default function Main() {
     return (
@@ -14,6 +15,7 @@ export default function Main() {
             <Offer />
             <New />
             <Newsletter />
+            <Sponsors />
         </main>
     );
 }
