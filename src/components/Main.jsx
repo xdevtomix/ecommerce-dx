@@ -1,6 +1,7 @@
 import Home from "./Home";
 import Collection from "./Collection";
 import Featured from "./Featured";
+import Offer from "./Offer";
 
 export default function Main() {
     return (
@@ -8,6 +9,7 @@ export default function Main() {
             <Home />
             <Collection />
             <Featured />
+            <Offer />
         </main>
     );
 }
