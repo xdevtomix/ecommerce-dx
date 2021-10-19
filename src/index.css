@@ -212,29 +212,6 @@ img {
     font-weight: var(--font-semi);
 }
 
-.offer__bg {
-    background: url('https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center/cover;
-    text-align: center;
-}
-
-.offer__data {
-    padding: 3.5rem 0.25rem;
-    background: rgba(0, 0, 0, 0.5);
-    color: var(--white-color);
-}
-
-.offer__title {
-    font-size: var(--h1-font-size);
-    letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    font-weight: var(--font-semi);
-}
-
-.offer__description {
-    margin-bottom: var(--mb-2);
-    letter-spacing: 0.2rem;
-}
-
 .new__container {
     row-gap: 2rem;
 }
@@ -317,10 +294,6 @@ img {
 
     .featured__container {
         grid-template-columns: repeat(4, 1fr);
-    }
-
-    .offer__data {
-        padding: 5rem 0;
     }
 
     .new__container {
