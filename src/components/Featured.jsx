@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default function Featured() {
     return (
-        <Container id="featured">
+        <Container data-component="featured" id="featured">
             <Title>FEATURED PRODUCTS</Title>
             <SubTitle href="#">View All</SubTitle>
 
