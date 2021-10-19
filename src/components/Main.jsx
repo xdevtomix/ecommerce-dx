@@ -8,7 +8,7 @@ import Sponsors from "./Sponsors";
 
 export default function Main() {
     return (
-        <main data-component="main" className="l-main">
+        <main data-component="main">
             <Home />
             <Collection />
             <Featured />
