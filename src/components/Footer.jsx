@@ -51,7 +51,7 @@ const Container = styled.footer`
 
 const ContainerOfBoxes = styled.div`
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
     row-gap: 1rem;
     width: calc(100% - 3rem);
