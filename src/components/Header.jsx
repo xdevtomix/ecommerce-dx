@@ -32,7 +32,7 @@ export default function Header() {
                             <Link isActive={hash === '#new'} onClick={() => onMenuItemClick('#new')}>New</Link>
                         </Item>
                         <Item>
-                            <Link isActive={hash === '#subscribed'} onClick={() => onMenuItemClick('#subscribed')}>Subscribed</Link>
+                            <Link isActive={hash === '#subscribed'} onClick={() => onMenuItemClick('#subscribed')}>Subscribe</Link>
                         </Item>
                     </List>
                 </Menu>
