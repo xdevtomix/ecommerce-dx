@@ -86,9 +86,9 @@ const Button = styled.a`
 
 const Image = styled.img`
     position: absolute;
-    right: 0;
+    right: 3rem;
     bottom: 0;
-    width: 220px;
+    width: 270px;
     border-radius: 4px;
 
     @media screen and (min-width: 768px) {
