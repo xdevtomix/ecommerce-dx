@@ -285,26 +285,6 @@ img {
     padding: 0 1rem;
 }
 
-.sponsors__container {
-    grid-template-columns: repeat(2,1fr);
-    row-gap: 2rem;
-    padding: 1.5rem 0;
-}
-
-.sponsors__logo {
-    display: flex;
-    justify-content: center;
-}
-
-.sponsors__logo i {
-    font-size: 80px;
-    filter: opacity(70%);
-}
-
-.sponsors__logo i:hover {
-    filter: none;
-}
-
 @media screen and (min-width: 768px) {
     :root {
         --big-font-size: 6rem;
@@ -350,10 +330,6 @@ img {
     .newsletter__form {
         width: 400px;
         margin: 0 auto;
-    }
-
-    .sponsors__container {
-        grid-template-columns: repeat(4, 1fr);
     }
 }
 
