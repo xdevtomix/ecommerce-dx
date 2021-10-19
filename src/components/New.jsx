@@ -105,7 +105,9 @@ const Box = styled.div`
     overflow: hidden;
 
     :hover {
-        bottom: 0;
+        div {
+            bottom: 0;
+        }
     }
 `;
 
