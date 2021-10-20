@@ -6,7 +6,7 @@ export default function Newsletter() {
             <GridContainer>
                 <div>
                     <Title>OUR NEWSLETTER</Title>
-                    <Description>Promotion new products and sales directly to your</Description>
+                    <Description>Promotion new products and sales directly to your email</Description>
 
                     <Form action="">
                         <Input type="text" placeholder="Enter your email" />
