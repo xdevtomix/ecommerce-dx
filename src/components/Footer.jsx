@@ -26,7 +26,7 @@ export default function Footer() {
                     <ul>
                         <li><Link href="#">Pricing</Link></li>
                         <li><Link href="#">Free Shipping</Link></li>
-                        <li><Link href="#">Gift Cards</Link></li>
+                        <li><Link href="#">New Gift Cards</Link></li>
                     </ul>
                 </div>
 
